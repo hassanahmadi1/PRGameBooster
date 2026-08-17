@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PR•Game Booster</string>
+    <string name="nav_home">خانه</string>
+    <string name="nav_monitor">مانیتور</string>
+    <string name="nav_tools">ابزارها</string>
+    <string name="nav_settings">تنظیمات</string>
+
+    <string name="home_subtitle">مرکز مدیریت بازی</string>
+    <string name="home_active_game">بازی انتخاب‌شده</string>
+    <string name="home_status_ready">آماده</string>
+    <string name="home_status_active">حالت بازی فعال</string>
+    <string name="home_activate_button">فعال‌سازی حالت بازی</string>
+    <string name="home_step_checking_device">در حال بررسی وضعیت دستگاه…</string>
+    <string name="home_step_checking_battery">در حال بررسی باتری…</string>
+    <string name="home_step_checking_network">در حال بررسی اتصال شبکه…</string>
+    <string name="home_step_applying">در حال اعمال تنظیمات قابل‌اعمال…</string>
+    <string name="home_step_done">حالت بازی فعال شد</string>
+    <string name="toast_profile_selected">پروفایل %1$s انتخاب شد</string>
+
+    <string name="monitor_title">وضعیت دستگاه</string>
+    <string name="monitor_battery">باتری</string>
+    <string name="monitor_network">اتصال</string>
+    <string name="monitor_latency">تأخیر</string>
+    <string name="monitor_speed">سرعت شبکه</string>
+    <string name="monitor_charging">در حال شارژ</string>
+    <string name="monitor_not_charging">در حال شارژ نیست</string>
+    <string name="monitor_battery_unavailable">اطلاعات باتری در این دستگاه در دسترس نیست</string>
+    <string name="monitor_test_connection">تست اتصال</string>
+    <string name="monitor_testing">در حال تست…</string>
+    <string name="monitor_fps_target">هدف FPS</string>
+    <string name="monitor_fps_actual">FPS واقعی</string>
+    <string name="monitor_not_available">در دسترس نیست</string>
+
+    <string name="tools_title">ابزارهای گیمینگ</string>
+    <string name="tools_crosshair">نشانه‌گر</string>
+    <string name="tools_haptic">بازخورد لرزشی</string>
+    <string name="tools_haptic_unsupported">این دستگاه از بازخورد لرزشی پشتیبانی نمی‌کند</string>
+    <string name="tools_fullscreen">حالت تمام‌صفحه</string>
+    <string name="tools_floating_panel">پنل شناور</string>
+    <string name="tools_fps_target">هدف FPS</string>
+    <string name="tools_fps_note">این مقدار هدف عملکردی برنامه است و تغییر FPS واقعی بازی به پشتیبانی سیستم و خود بازی بستگی دارد.</string>
+    <string name="tools_frame_smoothness">روانی تصویر</string>
+    <string name="tools_anti_lag">کاهش تأخیر</string>
+    <string name="tools_gpu_accel">شتاب‌دهی گرافیکی رابط برنامه</string>
+    <string name="tools_performance_mode">حالت عملکرد بالا</string>
+    <string name="tools_battery_saver">صرفه‌جویی باتری</string>
+    <string name="tools_overlay_permission_required">برای این قابلیت نیاز به اجازه «نمایش روی برنامه‌های دیگر» دارید</string>
+    <string name="tools_grant_permission">اعطای دسترسی</string>
+    <string name="tools_launch_game">اجرای بازی</string>
+    <string name="tools_game_not_installed">این بازی روی دستگاه نصب نیست</string>
+    <string name="tools_view_on_store">مشاهده در فروشگاه</string>
+
+    <string name="settings_title">تنظیمات</string>
+    <string name="settings_general">تنظیمات عمومی</string>
+    <string name="settings_appearance">تنظیمات ظاهری</string>
+    <string name="settings_profiles">مدیریت پروفایل‌ها</string>
+    <string name="settings_reset">بازنشانی تنظیمات</string>
+    <string name="settings_reset_confirm_title">آیا مطمئن هستید؟</string>
+    <string name="settings_reset_confirm_body">تمام تنظیمات به حالت اولیه برمی‌گردد.</string>
+    <string name="settings_cancel">انصراف</string>
+    <string name="settings_reset_action">بازنشانی</string>
+    <string name="settings_saved">تنظیمات ذخیره شد</string>
+
+    <string name="game_pubg">PUBG Mobile</string>
+    <string name="game_freefire">Free Fire</string>
+    <string name="game_codm">Call of Duty Mobile</string>
+</resources>

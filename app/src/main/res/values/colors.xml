@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_primary">#080A0F</color>
+    <color name="background_secondary">#0D1119</color>
+    <color name="card">#131923</color>
+    <color name="card_active">#192231</color>
+    <color name="outline">#283548</color>
+    <color name="primary_gold">#F5A623</color>
+    <color name="primary_gold_light">#FFD56A</color>
+    <color name="text_primary">#F1F4F8</color>
+    <color name="text_secondary">#9AA7B8</color>
+    <color name="status_success">#4DDB89</color>
+    <color name="status_error">#FF6868</color>
+    <color name="status_info">#4DB8FF</color>
+    <color name="status_performance">#FFB52E</color>
+</resources>

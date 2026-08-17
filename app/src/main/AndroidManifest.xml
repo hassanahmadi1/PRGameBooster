@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- شبکه: برای اندازه‌گیری واقعی وضعیت و تاخیر اتصال -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- ویبره: فقط در صورت فعال بودن بازخورد لرزشی -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- پنل شناور و Crosshair: Overlay واقعی سیستم -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <!-- جلوگیری از خاموشی صفحه در حالت Performance Mode، فقط با اجازه کاربر -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- بررسی نصب بودن بازی‌ها روی Android 11+ -->
+    <queries>
+        <package android:name="com.tencent.ig" />
+        <package android:name="com.dts.freefireth" />
+        <package android:name="com.activision.callofduty.shooter" />
+    </queries>
+
+    <application
+        android:name=".PRGameBoosterApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PRGameBooster"
+        android:largeHeap="false">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:theme="@style/Theme.PRGameBooster">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- سرویس واقعی Overlay برای پنل شناور و Crosshair -->
+        <service
+            android:name=".overlay.FloatingPanelService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse" />
+
+        <service
+            android:name=".overlay.CrosshairOverlayService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse" />
+
+    </application>
+</manifest>
